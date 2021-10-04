@@ -24,5 +24,7 @@ public class Main {
 		System.out.print("text, ");
 		System.out.println(text);
 
+		// for git push test
+
 	}
 }
