@@ -25,6 +25,33 @@ public class Main {
 		System.out.println(text);
 
 		// for git push test
+		int iii = 10;
+		float fff = 1f;
+		float ans = iii % fff;
+
+		byte bbb = 10;
+		System.out.println(++bbb);
+
+		int a = 3;
+		a = a++;
+		System.out.println("1, " + a);
+
+		a = ++a;
+		System.out.println("2, " + a);
+
+		a = a--;
+		System.out.println("3, " + a);
+
+		a = --a;
+		System.out.println("4, " + a);
+
+		float x = 4;
+		x *= 5;
+		x -= 6;
+		x += 1;
+		x /= 2;
+
+		System.out.println(x);
 
 	}
 }
