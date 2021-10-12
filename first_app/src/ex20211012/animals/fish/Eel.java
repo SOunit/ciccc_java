@@ -1,4 +1,4 @@
-package ex20211012.animals;
+package ex20211012.animals.fish;
 
 public class Eel extends Fish {
 	protected Boolean releaseElec;
@@ -13,7 +13,7 @@ public class Eel extends Fish {
 		this.releaseElec = releaseElec;
 	}
 
-	protected void showInfo() {
+	public void showInfo() {
 		super.showInfo();
 		System.out.println("releaseElec: " + this.releaseElec);
 	}

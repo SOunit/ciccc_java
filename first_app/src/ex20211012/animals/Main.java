@@ -1,5 +1,11 @@
 package ex20211012.animals;
 
+import ex20211012.animals.bird.Bird;
+import ex20211012.animals.fish.Eel;
+import ex20211012.animals.fish.Fish;
+import ex20211012.animals.reptile.Crocodile;
+import ex20211012.animals.reptile.Reptile;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -20,6 +26,13 @@ public class Main {
 
 		Eel eel = new Eel();
 		eel.showInfo();
+
+		Bird bird = new Bird();
+		bird.showInfo();
+
+		ex20211012.animals.bird.Crocodile clo = new ex20211012.animals.bird.Crocodile();
+		clo.showInfo();
+
 	}
 
 }

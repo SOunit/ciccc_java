@@ -1,4 +1,6 @@
-package ex20211012.animals;
+package ex20211012.animals.reptile;
+
+import ex20211012.animals.Animal;
 
 public class Reptile extends Animal {
 	protected String skinType;
@@ -13,15 +15,10 @@ public class Reptile extends Animal {
 		this.hasBackbone = hasBackbone;
 	}
 
-	protected void showInfo() {
-		System.out.println("Reptile");
-		System.out.println("height: " + this.height);
-		System.out.println("weight: " + this.weight);
-		System.out.println("animalType: " + this.animalType);
-		System.out.println("bloodType: " + this.bloodType);
+	public void showInfo() {
+		super.showInfo();
 		System.out.println("skinType: " + this.skinType);
 		System.out.println("eggType: " + this.eggType);
 		System.out.println("hasBackbone: " + this.hasBackbone);
-		System.out.println("-------------------");
 	}
 }

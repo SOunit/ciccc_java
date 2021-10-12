@@ -1,4 +1,6 @@
-package ex20211012.animals;
+package ex20211012.animals.fish;
+
+import ex20211012.animals.Animal;
 
 public class Fish extends Animal {
 	protected String where;
@@ -15,7 +17,7 @@ public class Fish extends Animal {
 		this.hasGill = hasGill;
 	}
 
-	protected void showInfo() {
+	public void showInfo() {
 		super.showInfo();
 		System.out.println("where: " + this.where);
 		System.out.println("hasGill: " + this.hasGill);
