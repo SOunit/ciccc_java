@@ -14,6 +14,12 @@ public class Main {
 		Crocodile crocodile = new Crocodile(30, 35, "crocodile", "reptile blood", "dry skin", "hard-shelled-eggs",
 				true);
 		crocodile.showInfo();
+
+		Fish fish = new Fish("live in water", true);
+		fish.showInfo();
+
+		Eel eel = new Eel();
+		eel.showInfo();
 	}
 
 }

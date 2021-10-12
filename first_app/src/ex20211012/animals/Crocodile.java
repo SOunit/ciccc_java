@@ -15,6 +15,5 @@ public class Crocodile extends Reptile {
 		System.out.println("skinType: " + this.skinType);
 		System.out.println("eggType: " + this.eggType);
 		System.out.println("hasBackbone: " + this.hasBackbone);
-		System.out.println("-------------------");
 	}
 }
