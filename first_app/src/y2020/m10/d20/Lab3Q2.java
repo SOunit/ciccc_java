@@ -15,7 +15,8 @@ public class Lab3Q2 {
 		}
 
 		List<Integer> newList = new ArrayList<>(list);
-		newList.set(0, -5);
+		int lastIndex = newList.size() - 1;
+		newList.set(lastIndex, -5);
 
 		System.out.println("Q2---------------");
 		System.out.println(list);
