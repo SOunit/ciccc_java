@@ -7,7 +7,8 @@ import java.util.Random;
 import y2020.utils.UserInput;
 
 public class Lab3Q1 {
-	public void execute() {
+
+	public static void main(String[] args) {
 		List<Integer> list = new ArrayList<>();
 		Random random = new Random();
 		for (int i = 0; i < 10; i++) {
@@ -34,4 +35,5 @@ public class Lab3Q1 {
 			System.out.println("no match");
 		}
 	}
+
 }
