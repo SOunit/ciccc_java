@@ -59,4 +59,8 @@ public class UserInput {
 
 		return numList;
 	}
+
+	public void closeScan() {
+		this.scan.close();
+	}
 }

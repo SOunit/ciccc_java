@@ -38,7 +38,8 @@ public class NumListController {
 			} else {
 				numListView.showInputInvalidMessage();
 			}
-
 		}
+
+		userInput.closeScan();
 	}
 }
