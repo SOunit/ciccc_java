@@ -19,7 +19,7 @@ public class Lab3Q1 {
 		System.out.println(list);
 
 		UserInput userInput = new UserInput();
-		int inputNum = userInput.getNunber();
+		int inputNum = userInput.getNumber();
 		System.out.println(inputNum);
 
 		Boolean hasMatch = false;
