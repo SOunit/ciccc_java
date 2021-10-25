@@ -1,4 +1,4 @@
-package y2020.m10.d22;
+package y2021.m10.d22;
 
 import java.util.Scanner;
 

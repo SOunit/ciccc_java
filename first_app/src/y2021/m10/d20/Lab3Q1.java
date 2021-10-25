@@ -1,10 +1,10 @@
-package y2020.m10.d20;
+package y2021.m10.d20;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import y2020.utils.UserInput;
+import y2021.utils.UserInput;
 
 public class Lab3Q1 {
 
